@@ -4,6 +4,7 @@ spring:
     username: userMWW
     password: cAeIUceaG45SYyf2
     driver-class-name: com.mysql.jdbc.Driver
+    #aaa
   jpa:
     hibernate:
       #ddl-auto: validate
