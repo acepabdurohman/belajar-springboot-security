@@ -3,11 +3,10 @@ spring:
     url: jdbc:mysql://db-test-app-service/dbtestapp
     username: userMWW
     password: cAeIUceaG45SYyf2
+    #url: jdbc:mysql://localhost/test
+    #username: root
+    #password: admin1234
     driver-class-name: com.mysql.jdbc.Driver
-
-    #add tag v1
-    #add tag v1
-
   jpa:
     hibernate:
       #ddl-auto: validate
@@ -22,4 +21,4 @@ spring:
   thymeleaf:
     cache: false
 server:
-  port: 8080
+  port: 9898
